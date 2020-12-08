@@ -1733,8 +1733,9 @@ a.on--opa:hover {
     max-width: 100vw;
   }
   .sec--whats .whats-cont ul {
-    width: 87.5vw;
+    width: 100vw;
     padding-left: 12.5vw;
+    margin: 0 auto;
   }
   .sec--whats .whats-cont::before {
     content: "";
@@ -1759,9 +1760,9 @@ a.on--opa:hover {
     margin: 1.875vw auto 5vw;
   }
   .sec--whats .whats-cont-li .li-img::before {
-    width: 87.5vw;
+    width: 100vw;
     height: 18.75vw;
-    left: 0;
+    left: -12.5vw;
     top: 16.875vw;
   }
   .sec--whats .whats-cont-li .li-txt {
@@ -1827,10 +1828,10 @@ a.on--opa:hover {
     margin: 30px auto 80px;
   }
   .sec--whats .whats-cont-li .li-img::before {
-    width: 87.5vw;
+    width: 1600px;
     height: 300px;
     z-index: -1;
-    left: 0;
+    left: -200px;
     top: 270px;
   }
   .sec--whats .whats-cont-li .li-txt {
@@ -1982,7 +1983,7 @@ a.on--opa:hover {
 
 .nextstep-cont::after {
   content: "";
-  background: url(../../img/nextstep/nextstep-box-bg.png) no-repeat center top;
+  background: url(../img/nextstep/nextstep-box-bg.png) no-repeat center top;
   width: 92vw;
   height: 37.33333vw;
   background-size: cover;
@@ -2028,7 +2029,7 @@ a.on--opa:hover {
   .nextstep-cont::after {
     width: 35.625vw;
     height: 23.75vw;
-    right: 0;
+    right: -3.125vw;
     left: auto;
     bottom: -20px;
   }
@@ -2063,7 +2064,7 @@ a.on--opa:hover {
   .nextstep-cont::after {
     width: 570px;
     height: 380px;
-    left: 1600px;
+    left: 880px;
     right: auto;
   }
   .sec--nextstep .cmn-head {

@@ -24,7 +24,7 @@
 }
 .nextstep-cont::after {
   content: "";
-  background: url(../../img/nextstep/nextstep-box-bg.png) no-repeat center top;
+  background: url(../img/nextstep/nextstep-box-bg.png) no-repeat center top;
   width: vw-sp(690);
   height: vw-sp(280);
   background-size: cover;
@@ -64,7 +64,7 @@
   .nextstep-cont::after {
     width: vw-pc(570);
     height: vw-pc(380);
-    right: 0;
+    right: vw-pc(-50);
     left: auto;
     bottom: -20px;
   }
@@ -100,7 +100,7 @@
   .nextstep-cont::after {
     width: 570px;
     height: 380px;
-    left: 1600px;
+    left: 880px;
     right: auto;
   }
   .sec--nextstep {

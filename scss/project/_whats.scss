@@ -100,8 +100,9 @@
     .whats-cont {
       max-width: vw-pc(1600);
       ul {
-        width: vw-pc(1400);
+        width: vw-pc(1600);
         padding-left: vw-pc(200);
+        margin: 0 auto;
       }
     }
     .whats-cont::before {
@@ -126,9 +127,9 @@
         margin: vw-pc(30) auto vw-pc(80);
       }
       .li-img::before {
-        width: vw-pc(1400);
+        width: vw-pc(1600);
         height: vw-pc(300);
-        left: 0;
+        left: vw-pc(-200);
         top: vw-pc(270);
       }
       .li-txt {
@@ -196,10 +197,10 @@
         margin: 30px auto 80px;
       }
       .li-img::before {
-        width: vw-pc(1400);
+        width: 1600px;
         height: 300px;
         z-index: -1;
-        left: 0;
+        left: -200px;
         top: 270px;
       }
       .li-txt {
