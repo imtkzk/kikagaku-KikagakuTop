@@ -1,0 +1,137 @@
+// main: ../style.scss
+
+/*  heading
+------------------------------------------------------------------------------*/
+
+/* ---------------------------------- common heading */
+
+.cmn-head {
+  position: relative;
+  text-align: center;
+}
+
+.cmn-head__en {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 0.5em;
+  padding: 0.3em 0.7em;
+  background-color: $color-main;
+  color: $color-base;
+  font-family: $font3;
+  font-size: vw-sp(28);
+  text-transform: uppercase;
+}
+
+.cmn-head__en--bold {
+  padding: 0.2em 0.7em 0.3em 0.7em;
+  font-family: $font1;
+  font-weight: 700;
+}
+
+.cmn-head__jp {
+  color: $color-main;
+  font-size: vw-sp(48);
+  font-weight: 700;
+  letter-spacing: 0.075em;
+  span {
+    color: #f49528;
+  }
+}
+
+.cmn-head__jp--italic {
+  font-style: italic;
+  letter-spacing: 0.1em;
+}
+
+.cmn-head__jp-strong {
+  font-family: $font3;
+  font-size: 1.41em;
+  font-weight: 400;
+}
+
+@media screen and (min-width: $breakpoint1) {
+  .cmn-head__en {
+    font-size: vw-pc(18);
+  }
+
+  .cmn-head__en:after {
+    width: vw-pc(297);
+    height: vw-pc(4);
+  }
+
+  .cmn-head__en--bold {
+    font-size: vw-pc(24);
+  }
+
+  .cmn-head__jp {
+    font-size: vw-pc(48);
+  }
+}
+
+@media screen and (min-width: $breakpoint2) {
+  .cmn-head__en {
+    font-size: 18px;
+    font-size: 1.8rem;
+  }
+
+  .cmn-head__en--bold {
+    font-size: 24px;
+    font-size: 2.4rem;
+  }
+
+  .cmn-head__en:after {
+    width: 297px;
+    height: 4px;
+  }
+
+  .cmn-head__jp {
+    font-size: 48px;
+    font-size: 4.8rem;
+  }
+}
+
+/* ---------------------------------- diago heading */
+
+.diago-header {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: vw-sp(45);
+  padding: 0 2em;
+  background-color: $color-main;
+  min-width: vw-sp(400);
+  height: vw-sp(60);
+  transform: skewX(-20deg);
+}
+
+.diago-head {
+  color: $color-base;
+  font-size: vw-sp(34);
+  font-weight: 700;
+  transform: skewX(20deg);
+}
+
+@media screen and (min-width: $breakpoint1) {
+  .diago-header {
+    margin-bottom: vw-pc(35);
+    min-width: vw-pc(300);
+    height: vw-pc(45);
+  }
+
+  .diago-head {
+    font-size: vw-pc(24);
+  }
+}
+
+@media screen and (min-width: $breakpoint2) {
+  .diago-header {
+    margin-bottom: 35px;
+    min-width: 300px;
+    height: 45px;
+  }
+
+  .diago-head {
+    font-size: 24px;
+    font-size: 2.4rem;
+  }
+}

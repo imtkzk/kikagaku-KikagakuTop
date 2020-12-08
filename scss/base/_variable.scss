@@ -1,0 +1,52 @@
+// main: ../style.scss;
+
+$color-base: #fff;
+$color-main: #253a4c;
+$color-thin: #f8f8f8;
+$color-text: #16325e;
+$color-green: #2ac584;
+$color-yellow: #fcff00;
+$font1: "Noto Sans JP", sans-serif;
+$font2: "Montserrat", sans-serif;
+$font3: "BebasKai", sans-serif;
+
+$breakpoint1: 801px;
+$breakpoint1-max: 800px;
+$breakpoint2: 1601px;
+$breakpoint2-max: 1600px;
+$max-width: 1200px;
+$sp-width: 750;
+$pc-width: 1600;
+
+@function vw-sp($size, $viewport: 750) {
+  $rate: 100 / $viewport;
+  @return $rate * $size * 1vw;
+}
+
+@function vw-pc($size, $viewport: 1600) {
+  $rate: 100 / $viewport;
+  @return $rate * $size * 1vw;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Noto+Sans+JP:wght@400;700;900&family=Noto+Serif+JP:wght@400;700;900&display=swap");
+
+@mixin marker {
+  background: linear-gradient(transparent 60%, #f9ff49 60%);
+}
+
+@mixin gradi {
+  background: -moz-linear-gradient(left, #4d7290, $color-main);
+  background: -webkit-linear-gradient(left, #4d7290, $color-main);
+  background: linear-gradient(to right, #4d7290, $color-main);
+}
+
+@font-face {
+  font-family: "BebasKai";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/BebasKai/BebasKai.eot");
+  src: url("../fonts/BebasKai/BebasKai.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/BebasKai/BebasKai.woff2") format("woff2"),
+    url("../fonts/BebasKai/BebasKai.woff") format("woff"),
+    url("../fonts/BebasKai/BebasKai.ttf") format("truetype");
+}

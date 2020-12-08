@@ -1,0 +1,213 @@
+// main: ../style.scss
+
+/*  intro
+------------------------------------------------------------------------------*/
+.sec--intro {
+  padding: vw-sp(20) 0;
+  width: 100%;
+}
+.intro-title {
+  width: calc(100% - 60px);
+  margin: 0 auto vw-sp(20);
+  display: flex;
+  align-items: center;
+  font-size: vw-sp(38);
+  font-weight: 700;
+  color: #ff9e00;
+  font-style: italic;
+  strong {
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    width: vw-sp(130);
+    height: vw-sp(130);
+    margin-right: vw-sp(10);
+    color: #fff;
+    font-size: vw-sp(36);
+    background: linear-gradient(to right, #ff9e00, #ffb517);
+    background-image: -webkit-linear-gradient(0deg, #ff9e00 0%, #ffb517 100%);
+    text-align: center;
+    small {
+      font-size: vw-sp(24);
+    }
+    span.intro-title__accent01 {
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+  }
+  span.intro-title__accent02 {
+    display: inline-block;
+    margin: 0 0.1em 0 0.2em;
+    padding: 0 0.4em 0 0.2em;
+    background-color: #253a4c;
+    font-size: 1.2em;
+    transform: skewX(-15deg);
+    line-height: 1.3em;
+    div {
+      display: inline-block;
+      color: #f9ff49;
+      vertical-align: text-top;
+      letter-spacing: 0.075em;
+      transform: skewX(15deg);
+    }
+  }
+}
+.intro-explane {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: url(../img/intro/intro-bg.png) center center;
+  background-size: cover;
+  height: auto;
+  padding: vw-sp(40);
+}
+.intro-explane-txt {
+  width: 100%;
+  font-size: vw-sp(36);
+  line-height: 2em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  .strong01 {
+    color: #ff9e00;
+    > .num {
+      font-style: italic;
+      font-size: vw-sp(56);
+      font-family: $font3;
+      font-weight: 300;
+    }
+  }
+  .strong02 {
+    color: #ff9e00;
+    font-style: italic;
+    font-size: vw-sp(48);
+  }
+  .strong03 {
+    color: #00ae50;
+    font-style: italic;
+  }
+  .strong04 {
+    font-style: italic;
+    display: inline-block;
+    margin: 0 0.1em 0 0.2em;
+    padding: 0 0.4em 0 0.2em;
+    background-color: #253a4c;
+    font-size: 1.2em;
+    transform: skewX(-15deg);
+    line-height: 1.3em;
+    font-size: vw-sp(48);
+    div {
+      display: inline-block;
+      color: #f9ff49;
+      vertical-align: text-top;
+      transform: skewX(15deg);
+    }
+  }
+}
+.intro-explane-img {
+  display: none;
+}
+@media screen and (min-width: $breakpoint1) {
+  .sec--intro {
+    padding: vw-pc(30) 0;
+    width: 100%;
+  }
+  .intro-title {
+    width: vw-pc(740);
+    margin: 0 auto vw-pc(60);
+    font-size: 2.4vw;
+    display: flex;
+    align-items: center;
+    strong {
+      width: vw-pc(130);
+      height: vw-pc(130);
+      font-size: 1.8vw;
+      small {
+        font-size: 1.2vw;
+      }
+    }
+  }
+  .intro-explane {
+    justify-content: flex-start;
+    width: 100%;
+    padding: 50px 0 50px 200px;
+    max-width: 1400px;
+    height: vw-pc(408);
+    padding: vw-pc(50) 0 vw-pc(50) vw-pc(200);
+  }
+  .intro-explane-txt {
+    width: vw-pc(853);
+    font-size: 2.4vw;
+    .strong01 {
+      > .num {
+        font-size: 3.6vw;
+      }
+    }
+    .strong02 {
+      font-size: 3vw;
+    }
+    .strong04 {
+      font-size: 3vw;
+    }
+  }
+  .intro-explane-img {
+    display: block;
+    position: relative;
+    bottom: vw-pc(100);
+  }
+  .intro-explane-img {
+    width: vw-pc(680);
+  }
+}
+@media screen and (min-width: $breakpoint2) {
+  .intro-title {
+    width: 740px;
+    margin: 0 auto 60px;
+    font-size: 48px;
+    font-size: 4.8rem;
+    strong {
+      width: 130px;
+      height: 130px;
+      margin-right: 10px;
+      font-size: 36px;
+      font-size: 3.6rem;
+      small {
+        font-size: 24px;
+        font-size: 2.4rem;
+      }
+    }
+  }
+  .intro-explane {
+    width: calc(100% - 100px);
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 408px;
+    padding: 50px 0 50px 200px;
+  }
+  .intro-explane-txt {
+    width: 853px;
+    font-size: 36px;
+    font-size: 3.6rem;
+    .strong01 {
+      > .num {
+        font-size: 56px;
+        font-size: 5.6rem;
+      }
+    }
+    .strong02 {
+      font-size: 48px;
+      font-size: 4.8rem;
+    }
+    .strong04 {
+      font-size: 48px;
+      font-size: 4.8rem;
+    }
+  }
+  .intro-explane-img {
+    bottom: 80px;
+    max-width: 700px;
+  }
+}

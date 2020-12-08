@@ -1,0 +1,25 @@
+//compileExpanded: ../css/$1.css
+
+@import "base/reset";
+@import "base/variable";
+@import "base/base";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/main";
+
+@import "project/hero";
+@import "project/intro";
+@import "project/bestseller";
+@import "project/apply01";
+@import "project/whats";
+@import "project/corpo";
+@import "project/nextstep";
+@import "project/apply02";
+@import "project/course";
+@import "project/apply03";
+@import "project/training";
+
+@import "component/heading";
+@import "component/button";
+
+@import "base/utils";

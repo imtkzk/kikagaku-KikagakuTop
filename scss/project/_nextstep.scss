@@ -1,0 +1,138 @@
+// main: ../style.scss
+
+/*  nextstep
+------------------------------------------------------------------------------*/
+
+/* ---------------------------------- section */
+.sec--nextstep .color-yellow {
+  color: $color-yellow;
+}
+.sec--nextstep {
+  .cmn-head {
+    background: url(../img/nextstep/nextstep-header-bg.png) no-repeat center
+      center;
+    background-size: cover;
+    padding: vw-sp(30) 0;
+    .cmn-head__jp {
+      color: #fff;
+    }
+  }
+}
+.nextstep-cont {
+  width: vw-sp(690);
+  margin: vw-sp(30) auto vw-sp(280);
+}
+.nextstep-cont::after {
+  content: "";
+  background: url(../../img/nextstep/nextstep-box-bg.png) no-repeat center top;
+  width: vw-sp(690);
+  height: vw-sp(280);
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  bottom: vw-sp(-200);
+  z-index: -1;
+}
+.nextstep-box {
+  background-color: $color-base;
+  padding: vw-sp(30);
+  max-width: vw-sp(690);
+  width: 100%;
+}
+.nextstep-box-li {
+  margin-left: vw-sp(28);
+  line-height: vw-sp(30);
+  font-weight: 600;
+  font-size: vw-sp(30);
+  border-bottom: vw-sp(1) solid #d1d5d8;
+  padding: vw-sp(20) 0;
+  span {
+    color: #ff9600;
+    font-size: vw-sp(28);
+  }
+}
+.nextstep-box-li::before {
+  content: "▶︎";
+  margin-left: vw-sp(-28);
+  font-size: vw-sp(16);
+  margin-right: vw-sp(10);
+}
+.nextstep-box-li:last-child {
+  border: 0;
+}
+@media screen and (min-width: $breakpoint1) {
+  .nextstep-cont::after {
+    width: vw-pc(570);
+    height: vw-pc(380);
+    right: 0;
+    left: auto;
+    bottom: -20px;
+  }
+  .sec--nextstep {
+    .cmn-head {
+      padding: vw-pc(30) 0;
+    }
+  }
+  .nextstep-cont {
+    width: vw-pc(1500);
+    margin: vw-pc(30) auto vw-pc(80);
+  }
+  .nextstep-box {
+    padding: vw-pc(30) vw-pc(60) vw-pc(30) 0;
+    max-width: vw-pc(1000);
+  }
+  .nextstep-box-li {
+    margin-left: vw-pc(28);
+    padding: 0;
+    line-height: vw-pc(56);
+    font-size: vw-pc(24);
+    border-bottom: vw-pc(1) solid #d1d5d8;
+    span {
+      font-size: vw-pc(28);
+    }
+  }
+  .nextstep-box-li::before {
+    margin-left: vw-pc(-28);
+    font-size: vw-pc(16);
+  }
+}
+@media screen and (min-width: $breakpoint2) {
+  .nextstep-cont::after {
+    width: 570px;
+    height: 380px;
+    left: 1600px;
+    right: auto;
+  }
+  .sec--nextstep {
+    .cmn-head {
+      padding: 30px 0;
+    }
+  }
+  .nextstep-cont {
+    width: 1200px;
+    margin: 30px auto 80px;
+  }
+  .nextstep-box {
+    padding: 30px 30px 30px 0;
+    max-width: 880px;
+  }
+  .nextstep-box-li {
+    line-height: 6.5rem;
+    font-weight: 600;
+    font-size: 24px;
+    font-size: 2.4rem;
+    border-bottom: 1px solid #d1d5d8;
+    span {
+      font-size: 28px;
+      font-size: 2.8rem;
+    }
+  }
+  .nextstep-box-li::before {
+    font-size: 16px;
+    font-size: 1.6rem;
+    margin-right: 2rem;
+  }
+  .nextstep-box-li:last-child {
+    border: 0;
+  }
+}

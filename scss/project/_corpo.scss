@@ -1,0 +1,103 @@
+// main: ../style.scss
+
+/*  corpo
+------------------------------------------------------------------------------*/
+
+/* ---------------------------------- section */
+
+.sec--corpo {
+  padding: vw-sp(60) 0 vw-sp(80) 0;
+}
+
+.sec--corpo:before {
+  content: "";
+  position: absolute;
+  top: vw-sp(300);
+  left: vw-sp(10);
+  display: inline-block;
+  width: vw-sp(730);
+  height: vw-sp(230);
+  background-image: url(../img/corpo/bg.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: $breakpoint1) {
+  .sec--corpo {
+    padding: vw-pc(85) 0;
+  }
+
+  .sec--corpo:before {
+    top: vw-pc(85);
+    left: calc(50% + #{vw-pc(70)});
+    width: vw-pc(730);
+    height: vw-pc(230);
+  }
+}
+
+@media screen and (min-width: $breakpoint2) {
+  .sec--corpo {
+    padding: 10px 0 85px;
+  }
+
+  .sec--corpo:before {
+    top: 10px;
+    left: calc(50% + 70px);
+    width: 730px;
+    height: 230px;
+  }
+}
+
+/* ---------------------------------- heading */
+
+.sec--corpo .cmn-head {
+  text-align: left;
+}
+.cmn-head--corpo {
+  margin: 0 0 vw-sp(340) 0;
+  text-align: left;
+}
+
+@media screen and (min-width: $breakpoint1) {
+  .cmn-head--corpo {
+    margin: 0 0 vw-pc(100) 0;
+  }
+}
+
+@media screen and (min-width: $breakpoint2) {
+  .cmn-head--corpo {
+    margin: 0 0 100px 0;
+  }
+}
+
+/* ---------------------------------- component */
+
+.corpo-logos {
+  margin: vw-sp(90) 0 vw-sp(75) 0;
+}
+
+.corpo-hosoku {
+  font-size: vw-sp(28);
+  text-align: center;
+}
+
+@media screen and (min-width: $breakpoint1) {
+  .corpo-logos {
+    margin: vw-pc(80) 0 vw-pc(65) 0;
+  }
+
+  .corpo-hosoku {
+    font-size: vw-pc(18);
+  }
+}
+
+@media screen and (min-width: $breakpoint2) {
+  .corpo-logos {
+    margin: 80px 0 65px 0;
+  }
+
+  .corpo-hosoku {
+    font-size: 18px;
+    font-size: 1.8rem;
+  }
+}

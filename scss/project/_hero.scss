@@ -1,0 +1,95 @@
+// main: ../style.scss
+
+/*  hero
+------------------------------------------------------------------------------*/
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: vw-sp(764);
+  background-image: url(../img/hero/hero_sp.png);
+  background-size: cover;
+}
+
+.hero-catch {
+  position: absolute;
+  top: vw-sp(420);
+  left: vw-sp(180);
+  width: vw-sp(520);
+}
+
+@media screen and (min-width: $breakpoint1) {
+  .hero {
+    height: vw-pc(600);
+    background-image: url(../img/hero/hero.png);
+    background-size: cover;
+  }
+
+  .hero-catch {
+    position: absolute;
+    top: vw-pc(210);
+    left: vw-pc(780);
+    width: vw-pc(706);
+  }
+}
+
+/* ---------------------------------- btn */
+
+.hero-btn {
+  position: absolute;
+  top: vw-sp(600);
+  width: vw-sp(540);
+}
+.hero-cmn-btn__small {
+  font-size: 36px;
+  font-size: 3.6vw;
+}
+.hero-cmn-btn__count {
+  font-style: italic;
+  color: $color-yellow;
+  font-size: 72px;
+  font-size: 7.2vw;
+  font-family: $font3;
+  margin-right: 0.5vw;
+}
+.hero-cmn-btn__seconds {
+  margin-right: 0.5vw;
+}
+@media screen and (max-width: $breakpoint1-max) {
+  .hero-btn {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (min-width: $breakpoint1) {
+  .hero-btn {
+    top: vw-pc(440);
+    left: vw-pc(800);
+    width: vw-pc(597);
+  }
+  .hero-cmn-btn__small {
+    font-size: 18px;
+    font-size: 1.8vw;
+  }
+  .hero-cmn-btn__count {
+    font-size: 36px;
+    font-size: 3.6vw;
+  }
+}
+
+@media screen and (min-width: $breakpoint2) {
+  .hero-btn {
+    width: 597px;
+  }
+  .hero-cmn-btn__small {
+    font-size: 24px;
+  }
+  .hero-cmn-btn__count {
+    font-size: 48px;
+    margin-right: 5px;
+  }
+  .hero-cmn-btn__seconds {
+    margin-right: 5px;
+  }
+}
