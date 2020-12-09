@@ -29,7 +29,7 @@
   height: vw-sp(280);
   background-size: cover;
   position: absolute;
-  right: 0;
+  right: vw-sp(-30);
   bottom: vw-sp(-200);
   z-index: -1;
 }
@@ -41,7 +41,7 @@
 }
 .nextstep-box-li {
   margin-left: vw-sp(28);
-  line-height: vw-sp(30);
+  line-height: vw-sp(46);
   font-weight: 600;
   font-size: vw-sp(30);
   border-bottom: vw-sp(1) solid #d1d5d8;

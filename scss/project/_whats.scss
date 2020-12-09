@@ -101,7 +101,7 @@
       max-width: vw-pc(1600);
       ul {
         width: vw-pc(1600);
-        padding-left: vw-pc(200);
+        padding: 0 vw-pc(200);
         margin: 0 auto;
       }
     }
@@ -148,7 +148,7 @@
           padding: 0 0.3em 0.1em;
         }
         p {
-          width: vw-pc(880);
+          padding-left: vw-pc(70);
           font-size: vw-pc(20);
           font-size: 2rem;
           font-weight: 600;
@@ -177,7 +177,7 @@
       max-width: 1600px;
       ul {
         max-width: 1600px;
-        padding-left: 200px;
+        padding: 0　200px;
       }
     }
     .whats-cont::before {
@@ -220,7 +220,7 @@
           padding: 0 0.3em 0.1em;
         }
         p {
-          width: 880px;
+          padding-left: 60px;
           font-size: 20px;
           font-size: 2rem;
           font-weight: 600;

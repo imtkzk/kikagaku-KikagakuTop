@@ -1734,7 +1734,7 @@ a.on--opa:hover {
   }
   .sec--whats .whats-cont ul {
     width: 100vw;
-    padding-left: 12.5vw;
+    padding: 0 12.5vw;
     margin: 0 auto;
   }
   .sec--whats .whats-cont::before {
@@ -1782,7 +1782,7 @@ a.on--opa:hover {
     padding: 0 0.3em 0.1em;
   }
   .sec--whats .whats-cont-li .li-txt p {
-    width: 55vw;
+    padding-left: 4.375vw;
     font-size: 1.25vw;
     font-size: 2rem;
     font-weight: 600;
@@ -1808,7 +1808,7 @@ a.on--opa:hover {
   }
   .sec--whats .whats-cont ul {
     max-width: 1600px;
-    padding-left: 200px;
+    padding: 0　200px;
   }
   .sec--whats .whats-cont::before {
     width: 200px;
@@ -1852,7 +1852,7 @@ a.on--opa:hover {
     padding: 0 0.3em 0.1em;
   }
   .sec--whats .whats-cont-li .li-txt p {
-    width: 880px;
+    padding-left: 60px;
     font-size: 20px;
     font-size: 2rem;
     font-weight: 600;
@@ -1988,7 +1988,7 @@ a.on--opa:hover {
   height: 37.33333vw;
   background-size: cover;
   position: absolute;
-  right: 0;
+  right: -4vw;
   bottom: -26.66667vw;
   z-index: -1;
 }
@@ -2002,7 +2002,7 @@ a.on--opa:hover {
 
 .nextstep-box-li {
   margin-left: 3.73333vw;
-  line-height: 4vw;
+  line-height: 6.13333vw;
   font-weight: 600;
   font-size: 4vw;
   border-bottom: 0.13333vw solid #d1d5d8;
