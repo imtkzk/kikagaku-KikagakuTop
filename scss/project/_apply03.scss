@@ -157,7 +157,8 @@
         margin-left: vw-pc(10);
         width: auto;
         li {
-          margin-right: vw-pc(10);
+          margin-right: vw-pc(30);
+          max-width: vw-pc(360);
         }
       }
     }
@@ -220,6 +221,7 @@
         margin-left: 1em;
         li {
           margin-right: 1em;
+          max-width: 360px;
         }
       }
     }

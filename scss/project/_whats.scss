@@ -28,12 +28,8 @@
     border-bottom: vw-sp(6) solid #2f5576;
     padding: vw-sp(50) 0;
     position: relative;
-    .li01-img {
+    .li-img {
       width: vw-sp(690);
-      margin: vw-sp(30) auto vw-sp(80);
-    }
-    .li03-img {
-      max-width: vw-sp(1000);
       margin: vw-sp(30) auto vw-sp(80);
     }
     .li-img::before {
@@ -45,6 +41,10 @@
       z-index: -1;
       left: 0;
       top: vw-sp(270);
+    }
+    .li03-img::before {
+      height: vw-sp(200);
+      top: vw-sp(70);
     }
     .li-txt {
       max-width: vw-sp(1000);
@@ -118,12 +118,8 @@
     .whats-cont-li {
       border-bottom: vw-pc(3) solid #2f5576;
       padding: vw-pc(50) 0;
-      .li01-img {
+      .li-img {
         width: vw-pc(784);
-        margin: vw-pc(30) auto vw-pc(80);
-      }
-      .li03-img {
-        max-width: vw-pc(1000);
         margin: vw-pc(30) auto vw-pc(80);
       }
       .li-img::before {
@@ -131,6 +127,10 @@
         height: vw-pc(300);
         left: vw-pc(-200);
         top: vw-pc(270);
+      }
+      .li03-img::before {
+        height: vw-pc(200);
+        top: vw-pc(120);
       }
       .li-txt {
         max-width: vw-pc(1000);
@@ -140,7 +140,6 @@
         }
         .num {
           font-size: vw-pc(60);
-          font-size: 6rem;
           padding-right: 0.1em;
         }
         h3 {
@@ -149,12 +148,11 @@
         }
         p {
           padding-left: vw-pc(70);
-          font-size: vw-pc(20);
-          font-size: 2rem;
+          font-size: vw-pc(24);
           font-weight: 600;
           line-height: vw-pc(36);
           span {
-            font-size: vw-pc(24);
+            font-size: vw-pc(28);
           }
         }
       }
@@ -188,12 +186,8 @@
     .whats-cont-li {
       border-bottom: 3px solid #2f5576;
       padding: 50px 0;
-      .li01-img {
+      .li-img {
         width: 784px;
-        margin: 30px auto 80px;
-      }
-      .li03-img {
-        max-width: 1000px;
         margin: 30px auto 80px;
       }
       .li-img::before {
@@ -202,6 +196,10 @@
         z-index: -1;
         left: -200px;
         top: 270px;
+      }
+      .li03-img::before {
+        height: 200px;
+        top: 120px;
       }
       .li-txt {
         max-width: 1000px;

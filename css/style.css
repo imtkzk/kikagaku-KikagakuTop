@@ -1567,8 +1567,8 @@ a.on--opa:hover {
   }
   .sec--apply01 .apply01 .apply01-contents {
     font-size: 2.4vw;
-    margin-left: 1.875vw;
-    width: 40vw;
+    margin-left: 0;
+    width: 42.5vw;
   }
   .sec--apply01 .apply01 .apply01-contents .cmn-btn {
     width: 42.5vw;
@@ -1606,7 +1606,7 @@ a.on--opa:hover {
   .sec--apply01 .apply01 .apply01-contents {
     font-size: 36px;
     font-size: 3.6rem;
-    margin-left: 30px;
+    width: 680px;
   }
   .sec--apply01 .apply01 .apply01-contents .cmn-btn {
     width: 680px;
@@ -1653,13 +1653,8 @@ a.on--opa:hover {
   position: relative;
 }
 
-.sec--whats .whats-cont-li .li01-img {
+.sec--whats .whats-cont-li .li-img {
   width: 92vw;
-  margin: 4vw auto 10.66667vw;
-}
-
-.sec--whats .whats-cont-li .li03-img {
-  max-width: 133.33333vw;
   margin: 4vw auto 10.66667vw;
 }
 
@@ -1672,6 +1667,11 @@ a.on--opa:hover {
   z-index: -1;
   left: 0;
   top: 36vw;
+}
+
+.sec--whats .whats-cont-li .li03-img::before {
+  height: 26.66667vw;
+  top: 9.33333vw;
 }
 
 .sec--whats .whats-cont-li .li-txt {
@@ -1751,12 +1751,8 @@ a.on--opa:hover {
     border-bottom: 0.1875vw solid #2f5576;
     padding: 3.125vw 0;
   }
-  .sec--whats .whats-cont-li .li01-img {
+  .sec--whats .whats-cont-li .li-img {
     width: 49vw;
-    margin: 1.875vw auto 5vw;
-  }
-  .sec--whats .whats-cont-li .li03-img {
-    max-width: 62.5vw;
     margin: 1.875vw auto 5vw;
   }
   .sec--whats .whats-cont-li .li-img::before {
@@ -1764,6 +1760,10 @@ a.on--opa:hover {
     height: 18.75vw;
     left: -12.5vw;
     top: 16.875vw;
+  }
+  .sec--whats .whats-cont-li .li03-img::before {
+    height: 12.5vw;
+    top: 7.5vw;
   }
   .sec--whats .whats-cont-li .li-txt {
     max-width: 62.5vw;
@@ -1774,7 +1774,6 @@ a.on--opa:hover {
   }
   .sec--whats .whats-cont-li .li-txt .num {
     font-size: 3.75vw;
-    font-size: 6rem;
     padding-right: 0.1em;
   }
   .sec--whats .whats-cont-li .li-txt h3 {
@@ -1783,13 +1782,12 @@ a.on--opa:hover {
   }
   .sec--whats .whats-cont-li .li-txt p {
     padding-left: 4.375vw;
-    font-size: 1.25vw;
-    font-size: 2rem;
+    font-size: 1.5vw;
     font-weight: 600;
     line-height: 2.25vw;
   }
   .sec--whats .whats-cont-li .li-txt p span {
-    font-size: 1.5vw;
+    font-size: 1.75vw;
   }
 }
 
@@ -1819,12 +1817,8 @@ a.on--opa:hover {
     border-bottom: 3px solid #2f5576;
     padding: 50px 0;
   }
-  .sec--whats .whats-cont-li .li01-img {
+  .sec--whats .whats-cont-li .li-img {
     width: 784px;
-    margin: 30px auto 80px;
-  }
-  .sec--whats .whats-cont-li .li03-img {
-    max-width: 1000px;
     margin: 30px auto 80px;
   }
   .sec--whats .whats-cont-li .li-img::before {
@@ -1833,6 +1827,10 @@ a.on--opa:hover {
     z-index: -1;
     left: -200px;
     top: 270px;
+  }
+  .sec--whats .whats-cont-li .li03-img::before {
+    height: 200px;
+    top: 120px;
   }
   .sec--whats .whats-cont-li .li-txt {
     max-width: 1000px;
@@ -3071,7 +3069,8 @@ a.on--opa:hover {
     width: auto;
   }
   .apply03-head .apply03-head-box ul li {
-    margin-right: 0.625vw;
+    margin-right: 1.875vw;
+    max-width: 22.5vw;
   }
   .apply03-cont {
     padding: 7.5vw 0 3.125vw;
@@ -3134,6 +3133,7 @@ a.on--opa:hover {
   }
   .apply03-head .apply03-head-box ul li {
     margin-right: 1em;
+    max-width: 360px;
   }
   .apply03-cont {
     padding: 120px 0 50px;
