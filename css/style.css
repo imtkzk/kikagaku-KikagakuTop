@@ -1631,6 +1631,7 @@ a.on--opa:hover {
   position: relative;
   bottom: 8px;
   width: 53.33333vw;
+  margin-right: 8px;
 }
 
 .sec--whats .cmn-head__jp:first-line {
@@ -1724,7 +1725,7 @@ a.on--opa:hover {
   }
   .sec--whats .cmn-head__jp img {
     bottom: 0.5vw;
-    width: auto;
+    width: 18.75vw;
   }
   .sec--whats .cmn-head__jp:first-line {
     line-height: 8.75vw;
@@ -1797,6 +1798,7 @@ a.on--opa:hover {
   }
   .sec--whats .cmn-head__jp img {
     bottom: 0;
+    width: 300px;
   }
   .sec--whats .cmn-head__jp:first-line {
     line-height: 100px;
@@ -3180,13 +3182,10 @@ a.on--opa:hover {
   margin: 0 auto;
   padding: 6.66667vw;
   display: flex;
-  flex-direction: column-reverse;
 }
 
 .training-cont .training-img {
-  width: 56vw;
-  height: auto;
-  margin: 8vw auto 0;
+  display: none;
 }
 
 .training-cont h2 {
@@ -3222,6 +3221,7 @@ a.on--opa:hover {
     padding: 3.125vw;
   }
   .training-cont .training-img {
+    display: inline-block;
     width: 46vw;
     height: auto;
     margin: 0 1.875vw 0 0;

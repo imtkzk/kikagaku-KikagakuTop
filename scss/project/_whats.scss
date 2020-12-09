@@ -11,6 +11,7 @@
       position: relative;
       bottom: 8px;
       width: vw-sp(400);
+      margin-right: 8px;
     }
   }
   .cmn-head__jp:first-line {
@@ -91,7 +92,7 @@
     .cmn-head__jp {
       img {
         bottom: vw-pc(8);
-        width: auto;
+        width: vw-pc(300);
       }
     }
     .cmn-head__jp:first-line {
@@ -166,6 +167,7 @@
     .cmn-head__jp {
       img {
         bottom: 0;
+        width: 300px;
       }
     }
     .cmn-head__jp:first-line {
